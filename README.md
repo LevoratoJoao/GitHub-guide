@@ -2,6 +2,11 @@
 
 Este repositorio é um guia inicial para quem quer aprender a usar Git e GitHub, nele você vai aprender comandos basicos para poder organizar seus projetos e trabalhos :)
 
+<!--![GitHub_meme](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/b590945d-f8ea-4f78-b2e2-84740e607258)-->
+<p align="center">
+    <img width="400" src="https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/b590945d-f8ea-4f78-b2e2-84740e607258" alt="GitHub Meme">
+</p>
+
 Primeiro, crie uma conta no [GitHub](https://github.com/signup), se você ainda não tem uma.
 
 ## O que é Git?
@@ -16,7 +21,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 
 ### Windows
 
-<!-- TODO -->
+TODO
 
 ### Linux
 
