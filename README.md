@@ -43,13 +43,18 @@ git config --global user.email "Seu email"
 ## Criando repositorio
 
 Após ter criado uma conta no GitHub basta clicar no botão `` New `` no canto superior esquerdo para criar um novo repositorio.
-![New](Screenshot_2.png)
+
+![New](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/35dc379a-0397-4f6a-98b6-c73e4c1f606a)
+
 GitHub vai mostrar várias opções, por hora vamos apenas colocar um nome para o repositorio e escolher se ele será publico ou privado.
-![Criando_repositorio](Screenshot_3.png)
+
+![Criando_repositorio](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/570bd73e-183a-4666-b7ae-90ee8bed31ea)
 
 Pronto, seu repositorio remoto esta criado :D
+
 Mas ainda precisamos linkar ele a um repositorio local (no seu computador). O GitHub já nos mostra como fazer isso mostrando uma serie de comandos que devemos digitar no terminal.
-![Linkando_repositorio](Screenshot_4.png)
+
+![Linkando_repositorio](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/3093ec91-71b8-475c-837a-237a289c7300)
 
 ## Comandos basicos
 
@@ -66,16 +71,19 @@ Para checar o status do seu repositorio, digite:
 ```bash
 git status
 ```
+
 Existem diversas maneiras de adicionar um arquivo ao seu repositorio, a mais simples é:
 
 ```bash
 git add <nome_do_arquivo>
 ```
+
 Caso queira adicionar todos os arquivos que foram modificados, digite:
 
 ```bash
 git add .
 ```
+
 Obs:
 - O ponto representa todos os arquivos da pasta.
 - `` git add * `` também adiciona todos os arquivos da pasta, porém ele não adiciona arquivos que começam com um ponto, como por exemplo `` .gitignore ``.
@@ -85,6 +93,7 @@ Para salvar as alterações feitas no repositorio, digite:
 ```bash
 git commit -m "Mensagem do commit"
 ```
+
 A mensagem do commit é uma mensagem que você escreve para descrever o que foi feito no commit, por exemplo: `` "Adicionado o arquivo tarefa.html" ``.
 
 Para mandar este commit para o GitHub (repositorio remoto), digite:
