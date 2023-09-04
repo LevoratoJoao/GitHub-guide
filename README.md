@@ -7,15 +7,24 @@ Este repositorio é um guia inicial para quem quer aprender a usar Git e GitHub,
     <img width="400" src="https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/b590945d-f8ea-4f78-b2e2-84740e607258" alt="GitHub Meme">
 </p>
 
-Primeiro, crie uma conta no [GitHub](https://github.com/signup), se você ainda não tem uma.
+## Índice
 
-## O que é Git?
+* [O que é Git](#o-que-é-git)
+* [Conhecendo GitHub](#conhecendo-github)
+* [Instalando git](#instalação)
+* [Criando um repositorio](#criando-um-repositorio)
+* [Fazendo um commit](#fazendo-um-commit)
+
+
+## O que é Git
 
 Git é um sistema de controle de versão distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.
 
-## O que é GitHub?
+## Conhecendo GitHub
 
 GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+
+Primeiro, crie uma conta no [GitHub](https://github.com/signup), se você ainda não tem uma.
 
 ## Instalação
 
@@ -25,15 +34,17 @@ TODO
 
 ### Linux
 
-Abra o terminal e digite:
-
-```bash
-sudo apt-get install git
-```
-Para verificar se a instalação foi bem sucedida, digite:
+Na maioria dos sistemas Linux o git já vem instalado, mas para verificarmos mesmo digite:
 
 ```bash
 git --version
+```
+<!-- IMAGEM DA VERSAO AQUI -->
+
+Caso não apareça utilize o seguinte comando para fazer a instalação
+
+```bash
+sudo apt-get install git
 ```
 
 ## Configuração
@@ -47,7 +58,9 @@ git config --global user.email "Seu email"
 
 ## Criando repositorio
 
-Após ter criado uma conta no GitHub basta clicar no botão `` New `` no canto superior esquerdo para criar um novo repositorio.
+ Vamos começar criando um repositorio no GitHub
+
+Após ter criado uma conta basta clicar no botão `` New `` no canto superior esquerdo para criar um novo repositorio.
 
 ![New](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/35dc379a-0397-4f6a-98b6-c73e4c1f606a)
 
@@ -57,17 +70,17 @@ GitHub vai mostrar várias opções, por hora vamos apenas colocar um nome para 
 
 Pronto, seu repositorio remoto esta criado :D
 
-Mas ainda precisamos linkar ele a um repositorio local (no seu computador). O GitHub já nos mostra como fazer isso mostrando uma serie de comandos que devemos digitar no terminal.
-
-![Linkando_repositorio](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/3093ec91-71b8-475c-837a-237a289c7300)
-
-## Comandos basicos
-
-Para criar um repositorio local, abra a pasta que deseja criar o repositorio no terminal e digite:
+Ainda precisamos linkar ele a um repositorio local (no seu computador). O GitHub já nos mostra como fazer isso mostrando uma serie de comandos que devemos digitar no terminal. Este é o comando para criar um repositorio local e ele deve ser feito dentro da pasta que deseja criar o repositorio:
 
 ```bash
 git init
 ```
+
+Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositorio já está pronto para... <!-- ... -->
+
+![Linkando_repositorio](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/3093ec91-71b8-475c-837a-237a289c7300)
+
+## Fazendo um commit
 
 Agora qualquer alteração que vocês fizer nos arquivos dessa pasta serão rastreados pelo git e você poderá mandar eles para o GitHub.
 
@@ -80,17 +93,17 @@ git status
 Existem diversas maneiras de adicionar um arquivo ao seu repositorio, a mais simples é:
 
 ```bash
-git add <nome_do_arquivo>
-```
-
-Caso queira adicionar todos os arquivos que foram modificados, digite:
-
-```bash
 git add .
 ```
 
+
+Caso queira adicionar um arquivo que foi modificado em especifico, digite:
+
+```bash
+git add <nome_do_arquivo>
+```
+
 Obs:
-- O ponto representa todos os arquivos da pasta.
 - `` git add * `` também adiciona todos os arquivos da pasta, porém ele não adiciona arquivos que começam com um ponto, como por exemplo `` .gitignore ``.
 
 Para salvar as alterações feitas no repositorio, digite:
