@@ -4,7 +4,7 @@ Este repositorio é um guia inicial para quem quer aprender a usar Git e GitHub,
 
 <!--![GitHub_meme](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/b590945d-f8ea-4f78-b2e2-84740e607258)-->
 <p align="center">
-    <img width="400" src="Images/GitHub_meme.jpg" alt="GitHub Meme">
+    <img width="400" src="Images/gitHub_meme.jpg" alt="GitHub Meme">
 </p>
 
 ## Índice
@@ -66,7 +66,7 @@ Após ter criado uma conta basta clicar no botão `` New `` no canto superior es
 
 GitHub vai mostrar várias opções, por hora vamos apenas colocar um nome para o repositorio e escolher se ele será publico ou privado.
 
-![Criando_repositorio](criando_repositorio.png)
+![Criando_repositorio](Images/criando_repositorio.png)
 
 Pronto, seu repositorio remoto esta criado :D
 
@@ -78,7 +78,7 @@ git init
 
 Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositorio já está pronto para... <!-- ... -->
 
-![Link_repositorio](link_repositorio.png)
+![Link_repositorio](Images/link_repositorio.png)
 
 ## Fazendo um commit
 
