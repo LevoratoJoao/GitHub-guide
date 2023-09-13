@@ -34,7 +34,7 @@ TODO
 
 ### Linux
 
-Na maioria dos sistemas Linux o git já vem instalado, mas para verificarmos mesmo digite:
+Na maioria dos sistemas Linux o git já vem instalado, mas para verificarmos mesmo digite o seguinte comando no terminal:
 
 ```bash
 git --version
@@ -56,7 +56,7 @@ git config --global user.name "Seu usuario"
 git config --global user.email "Seu email"
 ```
 
-## Criando repositorio
+## Criando um repositorio
 
  Vamos começar criando um repositorio no GitHub
 
