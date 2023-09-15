@@ -9,6 +9,8 @@ Este repositorio é um guia inicial para quem quer aprender a usar Git e GitHub,
 
 ## Índice
 
+* [Usando nos labs](Home/README.md)
+* [Usando em casa](Home/README.md)
 * [O que é Git](#o-que-é-git)
 * [Conhecendo GitHub](#conhecendo-github)
 * [Instalando git](#instalação)
