@@ -1,5 +1,7 @@
 # Git e GitHub guide
 
+Se você já se perguntou como ter suas pastas da HOME no PC da sua casa ou vice e versa, o git é uma das formas de se fazer isso.
+
 Este repositorio é um guia inicial para quem quer aprender a usar Git e GitHub, nele você vai aprender comandos basicos para poder organizar seus projetos e trabalhos :)
 
 <!--![GitHub_meme](https://github.com/LevoratoJoao/GitHub-guide/assets/90461798/b590945d-f8ea-4f78-b2e2-84740e607258)-->
@@ -13,10 +15,6 @@ Este repositorio é um guia inicial para quem quer aprender a usar Git e GitHub,
 * [Usando em casa](Home/README.md)
 * [O que é Git](#o-que-é-git)
 * [Conhecendo GitHub](#conhecendo-github)
-* [Instalando git](#instalação)
-* [Criando um repositorio](#criando-um-repositorio)
-* [Fazendo um commit](#fazendo-um-commit)
-
 
 ## O que é Git
 
@@ -28,7 +26,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 
 Primeiro, crie uma conta no [GitHub](https://github.com/signup), se você ainda não tem uma.
 
-## Instalação
+<!-- ## Instalação
 
 ### Windows
 
@@ -41,7 +39,7 @@ Na maioria dos sistemas Linux o git já vem instalado, mas para verificarmos mes
 ```bash
 git --version
 ```
-<!-- IMAGEM DA VERSAO AQUI -->
+<!-- IMAGEM DA VERSAO AQUI
 
 Caso não apareça utilize o seguinte comando para fazer a instalação
 
@@ -78,7 +76,7 @@ Ainda precisamos linkar ele a um repositorio local (no seu computador). O GitHub
 git init
 ```
 
-Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositorio já está pronto para... <!-- ... -->
+Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositorio já está pronto para... <!-- ... 
 
 ![Link_repositorio](Images/link_repositorio.png)
 
@@ -129,10 +127,4 @@ git clone <link_do_repositorio>
 ```
 <!-- add image about the link here -->
 
-___
-Estes são apenas os comandos basicos, existem muitos outros comandos que podem ser usados para facilitar o seu trabalho, para saber mais sobre eles, acesse a [documentação do git](https://git-scm.com/docs).
-
 fique à vontade para contribuir com este guia :)
-
-Links uteis:
-- [Git com Bitbucket Cloud](https://www.atlassian.com/br/git/tutorials/learn-git-with-bitbucket-cloud)
