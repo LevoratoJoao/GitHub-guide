@@ -10,7 +10,13 @@
 
 ### Windows
 
-TODO
+Acesse o site de [download do Git para Windows](https://git-scm.com/download/win) e baixe o `64-bit Git for Windows Setup.` ou `32-bit Git for Windows Setup.` dependendo do seu sistema.
+
+Após ter feito o donwload execute o instalador e clique em `Next` até chegar na seguinte etapa, a primeira opção virá selecionada mas vamos selecionar a segunda e manter main na caixa de texto.
+
+![main](../Images/Git/main.png)
+
+De `Next` para as demais etapas e por fim `Finish`. Pronto, agora você tem Linux instalado no seu computador e pode usa-lo para gerenciar seus repositorios e projetos.
 
 ### Linux
 
@@ -75,7 +81,7 @@ Ainda precisamos linkar ele a um repositorio local (no seu computador). O GitHub
 git init
 ```
 
-Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositorio já está pronto para... <!-- ... 
+Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositorio já está pronto para... <!-- ...
 
 ![Link_repositorio](../Images/link_repositorio.png)
 -->
