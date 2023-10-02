@@ -13,6 +13,7 @@ Este repositorio é um guia inicial para quem quer aprender a usar Git e GitHub,
 
 * [Usando nos labs](Labs/README.md)
 * [Usando em casa](Home/README.md)
+* [Usando no VSCode](vscode/README.md)
 * [O que é Git](#o-que-é-git)
 * [Conhecendo GitHub](#conhecendo-github)
 

@@ -74,3 +74,17 @@ Para mandar este commit para o GitHub (repositorio remoto), digite:
 ```bash
 git push origin main
 ```
+Apos isso o git vai solicitar um login no terminal, digite seu usuario do GitHub e após isso ele irá pedir a senha, porém, não é a mesma senha do GitHub mas sim um token de acesso. Vamos criar um:
+
+Na página do GitHub clique no seu perfil no canto superior esquerdo da página e vá em `Settings`
+
+![settings](/Labs/Images/settings.png)
+
+Na página de configurações na parte esquerda, navegue até encontrar a opção `Developer settings`.
+
+![developer_settings](/Labs/Images/developer_settings.png)
+
+Agora acesse `Tokens (classic)`
+
+![token_classic](/Labs/Images/token_classic.png)
+
