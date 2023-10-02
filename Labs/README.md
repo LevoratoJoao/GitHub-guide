@@ -32,25 +32,10 @@ Para usar git nos laboratorios da UTF usando o Linux precisamos configurar usuar
 
 Para fazer isso usamos os seguintes comandos:
 ```bash
-git config --global user.name "Seu usuario"
-git config --global user.email "Seu email"
+git config --local user.name "Seu usuario"
+git config --local user.email "Seu email"
 ```
-Porém, como os os PCs resetam  toda vez que desligamos eles nos podemos usar um arquivo .sh (script) para facilitar esta configuração
-Crie um arquivo na home com a extensão .sh, exemplo:
-
-```bash
-gitconfig.sh
-```
-
-Abra ele e digite as seguintes informações:
-
-```bash
-#!/bin/sh
-cd seu_repositorio
-git config --global user.name "usuario"
-git config --global user.email "email do git"
-```
-O comando `cd seu_repositorio` abre a pasta do seu repositorio, substituia o `seu_repositorio` com o nome do repositorio criado. O script estará neste repositorio, se preferir você dar um git clone nele e copiar o arquivo na sua Home. Toda vez que ligar o PC nos labs clique no arquivo com o botão direito do mouse e vá em `Executar como programa` para rodar o script
+Como os computadores dos laborátorios resetam sempre quando desligados precisamos fazer a configuração de forma local, por isso o comando recebe o `--local`, em sua casa este comando pode ser feito com `--global`.
 
 ## Fazendo um commit
 Agora qualquer alteração que vocês fizerem nos arquivos dessa pasta do repositorio serão rastreados pelo git e você poderá mandar eles para o GitHub.
