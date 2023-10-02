@@ -13,6 +13,9 @@ Após ter criado seu repositorio vamos clona-lo usando o VS Code, para isso digi
 
 ## Fazendo um commit
 
-Digite `Ctrl+Shift+P` e 
+Digite `Ctrl+Shift+P` novamente e depois `Git Commit All` para fazer um commit com todos os arquivos que foram alterados dentro do repositorio. Apos ter selecionado os comandos um novo arquivo aparecerá com alguns comentarios nele
+
+
+Digite uma mensagem nele dando uma breve explicação sobre a alteração feita e feche
 
 Antes de começarmos a usar o Git pelo VS Code precisamos rodar dois comandos para nossa configuração.
