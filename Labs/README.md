@@ -2,51 +2,53 @@
 
 ## Índice
 
-* [Criando um repositorio](#criando-um-repositorio)
+* [Criando um repositório](#criando-um-repositório)
 * [Configurando o git](#configurando-o-git)
 * [Fazendo um commit](#fazendo-um-commit)
 
-## Criando um repositorio
+## Criando um repositório
 
-Após ter criado uma conta basta clicar no botão `` New `` no canto superior esquerdo para criar um novo repositorio.
+Após ter criado uma conta basta clicar no botão `` New `` no canto superior esquerdo para criar um novo repositório.
 
 ![New](../Images/new.png)
 
-GitHub vai mostrar várias opções, por hora vamos apenas colocar um nome para o repositorio, selecione a caixinha ``Add a README file ``, escolha se ele será publico ou privado e por fim Create repository.
+GitHub vai mostrar várias opções, por hora vamos apenas colocar um nome para o repositório, selecione a caixinha ``Add a README file ``, escolha se ele será publico ou privado e por fim Create repository.
 
 ![Criando_repositorio](../Images/criando_repositorio.png)
 
-Agora que temos nosso repositorio remoto criado vamos adiciona-lo na nossa home. Para isso, cline no botão ``Code`` e copie o link dele:
+Agora que temos nosso repositório remoto criado vamos adiciona-lo na nossa home. Para isso, cline no botão ``Code`` e copie o link dele:
 
 ![Link_repositorio](../Images/clonar_repositorio.png)
 
-Apos ter copiado o link do repositorio abra o terminal na pasta HOME e digite o seguinte comando com o link:
+Apos ter copiado o link do repositório abra o terminal na pasta HOME e digite o seguinte comando com o link:
 
 ```bash
-git clone <link_do_repositorio>
+git clone <link_do_repositório>
 ```
-Pronto agora seu repositorio do GitHub esta na sua Home, você pode fazer o mesmo processo de clonar o repositorio na sua casa.
+Pronto agora seu repositório do GitHub esta na sua Home, você pode fazer o mesmo processo de clonar o repositório na sua casa.
 
 ## Configurando o git
 Para usar git nos laboratorios da UTF usando o Linux precisamos configurar usuario e email do git primeiro. 
 
 Para fazer isso usamos os seguintes comandos:
+
 ```bash
 git config --local user.name "Seu usuario"
 git config --local user.email "Seu email"
 ```
+
 Como os computadores dos laborátorios resetam sempre quando desligados precisamos fazer a configuração de forma local, por isso o comando recebe o `--local`, em sua casa este comando pode ser feito com `--global`.
 
 ## Fazendo um commit
-Agora qualquer alteração que vocês fizerem nos arquivos dessa pasta do repositorio serão rastreados pelo git e você poderá mandar eles para o GitHub.
+Agora qualquer alteração que vocês fizerem nos arquivos dessa pasta do repositório serão rastreados pelo git e você poderá mandar eles para o GitHub.
 
-Para checar o status do seu repositorio, digite:
+Para checar o status do seu repositório, digite:
 
 ```bash
 git status
 ```
 
-Existem diversas maneiras de adicionar um arquivo ao seu repositorio, a mais simples é:
+Existem diversas maneiras de adicionar um arquivo ao seu repositório, a mais simples é:
 
 ```bash
 git add .
@@ -61,15 +63,15 @@ git add <nome_do_arquivo>
 Obs:
 - `` git add * `` também adiciona todos os arquivos da pasta, porém ele não adiciona arquivos que começam com um ponto, como por exemplo `` .gitignore ``.
 
-Para salvar as alterações feitas no repositorio, digite:
+Para salvar as alterações feitas no repositório, digite:
 
 ```bash
 git commit -m "Mensagem do commit"
 ```
 
-A mensagem do commit é uma mensagem que você escreve para descrever o que foi feito no commit, por exemplo: `` "Adicionado o arquivo tarefa.html" ``.
+A mensagem do commit é uma mensagem que você escreve para descrever o que foi feito no commit, por exemplo: `"Adicionado o arquivo tarefa.html"`.
 
-Para mandar este commit para o GitHub (repositorio remoto), digite:
+Para mandar este commit para o GitHub (repositório remoto), digite:
 
 ```bash
 git push origin main
@@ -88,3 +90,4 @@ Agora acesse `Tokens (classic)`
 
 ![token_classic](/Labs/Images/token_classic.png)
 
+<!-- GIT TOKEN EXPLANATION -->
