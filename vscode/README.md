@@ -30,6 +30,6 @@ Digite uma mensagem dando uma breve explicação sobre a alteração feita e fec
 
 ![commit_message](/vscode/Images/commit_message.png)
 
-Pronto, o commit já foi criado e agora precisamos manda-lo para o GitHub no repositório remoto. Digite `Ctrl+Shift+P` e `Git Push` e pronto seu commit foi enviado para o repositório remoto
+Pronto, o commit já foi criado e agora precisamos manda-lo para o GitHub no repositório remoto. Digite `Ctrl+Shift+P` e `Git Push` e pronto seu commit foi enviado para o repositório remoto.
 
-TESTANDO GIT PULL
+Para puxar as alterações feitas no repositório remoto digite `Ctrl+Shift+P` e `Git pull`, isso irá atualizar o repositório local com os arquivos do repositório remoto.
