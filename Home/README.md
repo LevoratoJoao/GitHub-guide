@@ -18,6 +18,14 @@ Após ter feito o donwload execute o instalador e clique em `Next` até chegar n
 
 De `Next` para as demais etapas e por fim `Finish`. Pronto, agora você tem Linux instalado no seu computador e pode usa-lo para gerenciar seus repositórios e projetos.
 
+De botão direito em uma pasta e selecione a opção `Git Bash Here`
+
+![git_bash_here](Images/git_bash_here.png)
+
+No terminal do bash você pode colocar comandos do git que irá funcionar normal
+
+![git_bash](Images/git_bash.png)
+
 ### Linux
 
 Na maioria dos sistemas Linux o git já vem instalado, mas para verificarmos mesmo digite o seguinte comando no terminal:
@@ -88,13 +96,6 @@ Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositório
 ## Fazendo um commit
 
 Agora qualquer alteração que vocês fizer nos arquivos dessa pasta serão rastreados pelo git e você poderá mandar eles para o GitHub.
-De botão direito na pasta do repositório e selecione a opção `Git Bash Here`
-
-![git_bash_here](Images/git_bash_here.png)
-
-No terminal do bash você pode colocar comandos do git que irá funcionar normal
-
-![git_bash](Images/git_bash.png)
 
 Para checar o status do seu repositório, digite:
 
