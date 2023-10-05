@@ -14,7 +14,7 @@ Acesse o site de [download do Git para Windows](https://git-scm.com/download/win
 
 Após ter feito o donwload execute o instalador e clique em `Next` até chegar na seguinte etapa, a primeira opção virá selecionada mas vamos selecionar a segunda e manter main na caixa de texto.
 
-![main](../Images/Git/main.png)
+![main](Images/Git/main.png)
 
 De `Next` para as demais etapas e por fim `Finish`. Pronto, agora você tem Linux instalado no seu computador e pode usa-lo para gerenciar seus repositórios e projetos.
 
@@ -90,7 +90,11 @@ Vamos analisar os demais comandos no topico a seguir. Apos isso seu repositório
 Agora qualquer alteração que vocês fizer nos arquivos dessa pasta serão rastreados pelo git e você poderá mandar eles para o GitHub.
 De botão direito na pasta do repositório e selecione a opção `Git Bash Here`
 
-<!-- ADD IMAGE GIT BASH HERE-->
+![git_bash_here](Images/git_bash_here.png)
+
+No terminal do bash você pode colocar comandos do git que irá funcionar normal
+
+![git_bash](Images/git_bash.png)
 
 Para checar o status do seu repositório, digite:
 
@@ -132,6 +136,12 @@ Para pegar um repositório remoto e clona-lo para o seu computador, digite:
 ```bash
 git clone <link_do_repositório>
 ```
+
+```bash
+git pull
+```
+
+git pull irá puxar as alterações do repositório remoto que não estão no repositório local, sempre que fizer alterações no laboratório use este comando para atualizar a pasta no seu computador.
 ___
 Estes são apenas os comandos basicos, existem muitos outros comandos que podem ser usados para facilitar o seu trabalho, para saber mais sobre eles, acesse a [documentação do git](https://git-scm.com/docs).
 

@@ -76,6 +76,7 @@ Para mandar este commit para o GitHub (repositório remoto), digite:
 ```bash
 git push origin main
 ```
+
 Apos isso o git vai solicitar um login no terminal, digite seu usuario do GitHub e após isso ele irá pedir a senha, porém, não é a mesma senha do GitHub mas sim um token de acesso. Vamos criar um:
 
 Na página do GitHub clique no seu perfil no canto superior esquerdo da página e vá em `Settings`
@@ -90,4 +91,22 @@ Agora acesse `Tokens (classic)`
 
 ![token_classic](/Labs/Images/token_classic.png)
 
-<!-- GIT TOKEN EXPLANATION -->
+![generate_new_toke](/Labs/Images/generate_new_token.png)
+
+Temos uma serie de opções para o token, coloque um nome para ele, selecione o tempo de expiração e selecione a opção `repo`
+
+![token_options](/Labs/Images/token_options.png)
+
+Clique no botão `Generate token` no final da página. Copie esse token e salve em um arquivo txt para não perdê-lo, se você perder este token terá que criar um novo.
+
+```bash
+git pull
+```
+
+git pull é um comando que irá puxar as alterações do repositório remoto que não estão no repositório local, sempre que fizer alterações em sua casa use este comando para atualizar a pasta nos laboratórios.
+
+___
+Estes são apenas os comandos basicos, existem muitos outros comandos que podem ser usados para facilitar o seu trabalho, para saber mais sobre eles, acesse a [documentação do git](https://git-scm.com/docs).
+
+Links uteis:
+- [Git com Bitbucket Cloud](https://www.atlassian.com/br/git/tutorials/learn-git-with-bitbucket-cloud)

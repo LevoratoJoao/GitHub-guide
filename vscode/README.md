@@ -21,7 +21,6 @@ Após ter criado seu repositório vamos clona-lo usando o VS Code, para isso dig
 
 ## Fazendo um commit
 
-
 No VS Code digite `Ctrl+Shift+P` novamente e depois `Git Commit All` para fazer um commit com todos os arquivos que foram alterados dentro do repositório. Apos ter selecionado os comandos um novo arquivo aparecerá com alguns comentarios nele
 
 ![commit](/vscode/Images/commit.png)
