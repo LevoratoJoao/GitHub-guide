@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 49%;
+    float: left;
+    margin-right: 10px;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.shortcuts_geral table {
+    background:#2e8804a2;
+}
+
+.shortcuts_geral tr:nth-child(even) {
+    background:rgb(197, 255, 195);
+}
+
+.shortcuts_vscode table {
+    background:#005fada2;
+}
+
+.shortcuts_vscode tr:nth-child(even) {
+    background:rgb(141, 223, 255);
+}
